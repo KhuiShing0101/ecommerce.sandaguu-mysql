@@ -10,7 +10,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="home/images/favicon.png" type="">
+    <link rel="shortcut icon" href="home/favicon.png" type="">
     <title>စန္ဒကူးနံ့သာဖြူ</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('home/css/bootstrap.css') }}" />
@@ -33,7 +33,8 @@
         table,
         th,
         td {
-            border: 1px solid;
+            border: 1px solid grey;
+            vertical-align: middle;
         }
 
         .th_deg {
@@ -41,9 +42,7 @@
 
             font-size: 25px;
 
-            font-weight: bold;
-
-            background-color: skyblue;
+            text-transform: uppercase;
         }
 
         .tr_deg {
@@ -73,7 +72,9 @@
         <div class="center">
 
             <table>
-                <tr class="th_deg">
+            <thead class="thead-dark">
+                <tr class="table">
+
                     <th>Product Title</th>
 
                     <th>Quantity</th>
@@ -88,6 +89,7 @@
 
                     <th>Cancel Order</th>
                 </tr>
+            </thead>
 
                 @foreach ($order as $order)
                     <tr class="td_deg">

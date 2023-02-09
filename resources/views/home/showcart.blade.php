@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="home/images/favicon.png" type="">
+    <link rel="shortcut icon" href="home/favicon.png" type="">
     <title></title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}"/>
@@ -35,14 +35,12 @@
             table,th,td
             {
                 border:1px solid grey;
-                vertical-align: middle;
+                margin-left: 150px;
             }
             .th_deg
             {
                 font-size:20px;
                 padding:5px;
-                background:skyblue;
-                text-transform: uppercase;
             }
 
             .img_deg
@@ -80,9 +78,9 @@
          @endif
 
             <div class="Center">
-                <table class="table">
+                <table style="">
                 <thead class="thead-dark">
-                    <tr>
+                    <tr class="table">
 
                         <th scope="col" class="th_deg">product title</th>
                         <th scope="col" class="th_deg">product quantity</th>

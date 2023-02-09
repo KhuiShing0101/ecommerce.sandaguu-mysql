@@ -10,7 +10,7 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="home/images/favicon.png" type="">
+      <link rel="shortcut icon" href="home/favicon.png" type="">
       <title>စန္ဒကူးနံ့သာဖြူ</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}"/>

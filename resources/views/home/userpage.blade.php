@@ -10,7 +10,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="home/images/favicon.png" type="">
+    <link rel="shortcut icon" href="home/favicon.png" type="">
     <title>စန္ဒကူးနံ့သာဖြူ</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="{{ asset('home/css/bootstrap.css') }}" />
@@ -133,7 +133,9 @@
             <h1 style="font-size: 30px; text-align: center; padding-top: 20px;">Comments</h1>
             <form action="{{ url('add_comment') }}" method="GET">
                 @csrf
-                <textarea style="height: 150px; width: 100%; max-width: 600px; font-size: 18px; margin-bottom: 10px;"
+                <textarea
+                    style="height: 150px; width: 100%; max-width: 600px; font-size: 18px; margin-bottom: 10px;
+                border-radius:20px; box-shadow:#d2d2dc; box-shadow: 0px 0px 5px 0px rgb(161 163 164);"
                     placeholder="Comment something here" name="comment"></textarea>
                 <br>
                 <input type="submit" class="cmt_deg1" value="Comment">
@@ -146,13 +148,13 @@
                         <div class="row" style="margin:0;">
                             <div class="col-md-12">
                                 <h3 class="text-center mb-5">
-                                   "၀ယ်ယူသူများ၏ မှတ်ချက်များ"
+                                    "၀ယ်ယူသူများ၏ မှတ်ချက်များ"
                                 </h3>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="media">
                                             <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview"
-                                                src="/images/client3.jpg"/>
+                                                src="/images/client3.jpg" />
                                             <div class="media-body">
                                                 <div class="row" style="margin: 0px;">
                                                     <div class="col-8 d-flex" style="align-items: center">
@@ -185,7 +187,8 @@
                                                     <div class="media mt-4">
                                                         <a class="pr-3" href="#"><img class="rounded-circle"
                                                                 alt="Bootstrap Media Another Preview"
-                                                                src="/images/facelogo.png"  style="background-color:black;" /></a>
+                                                                src="/images/facelogo.png"
+                                                                style="background-color:rgb(3, 4, 109);" /></a>
                                                         <div class="media-body">
 
                                                             <div class="row" style="margin: 0px;">

@@ -25,13 +25,17 @@
         }
 
         .th_color {
-            background: skyblue;
+            background: white;
         }
 
         .th_deg {
 
-
+            color: black;
             font-size: 5px;
+        }
+
+        .deg {
+            color: black;
         }
     </style>
 </head>
@@ -62,18 +66,21 @@
                 <h2 class="font_size">All Products</h2>
 
                 <table class="center">
-                    <tr class="th_color">
-                        <th class="deg">Product title</th>
-                        <th class="deg">Description</th>
-                        <th class="deg">Quantity</th>
-                        <th class="deg">Category</th>
-                        <th class="deg">Price</th>
-                        <th class="deg">Discount Price</th>
-                        <th class="deg">Product Image</th>
-                        <th class="deg">Delete</th>
-                        <th class="deg">Edit</th>
+                    <thead class="thead-dark">
+                        <tr class="th_color">
 
-                    </tr>
+                            <th class="deg">Product title</th>
+                            <th class="deg">Description</th>
+                            <th class="deg">Quantity</th>
+                            <th class="deg">Category</th>
+                            <th class="deg">Price</th>
+                            <th class="deg">Discount Price</th>
+                            <th class="deg">Product Image</th>
+                            <th class="deg">Delete</th>
+                            <th class="deg">Edit</th>
+
+                        </tr>
+                    </thead>
                     @foreach ($product as $product)
                         <tr>
                             <td>{{ $product->title }}</td>

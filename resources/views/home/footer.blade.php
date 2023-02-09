@@ -3,7 +3,9 @@
        <div class="row">
           <div class="col-md-4">
             <div class="logo_footer">
-                <a href="#"><div style="text-align: left; filter:brightness(0.1);"><img src="/images/logo.png" ></div></a>
+                <a href="#"><div style="text-align: left; filter:brightness(0.1);  margin-bottom: 10px;
+                    margin-left:-60px;">
+                <img src="/images/logo.png" ></div></a>
               </div>
               <div class="full">
                  <div class="information_f">

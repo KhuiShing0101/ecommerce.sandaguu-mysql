@@ -2,10 +2,10 @@
     <div class="container">
        <div class="row">
           <div class="col-md-4">
+            <div class="logo_footer">
+                <a href="#"><div style="text-align: left; filter:brightness(0.1);"><img src="/images/logo.png" ></div></a>
+              </div>
               <div class="full">
-                 <div class="logo_footer">
-                   <a href="#"><div style="text-align: left;"><img src="/images/logo.png" filter:brightness(0.5);></div></a>
-                 </div>
                  <div class="information_f">
                    <p><strong>ADDRESS:</strong> Yangon, Myanmar</p>
                    <p><strong>TELEPHONE:</strong>+95 09-767879998</p>

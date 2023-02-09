@@ -146,13 +146,13 @@
                         <div class="row" style="margin:0;">
                             <div class="col-md-12">
                                 <h3 class="text-center mb-5">
-                                    Nested comment section
+                                   "၀ယ်ယူသူများ၏ မှတ်ချက်များ"
                                 </h3>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="media">
                                             <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview"
-                                                src="https://i.imgur.com/xELPaag.jpg" />
+                                                src="/images/client3.jpg"/>
                                             <div class="media-body">
                                                 <div class="row" style="margin: 0px;">
                                                     <div class="col-8 d-flex" style="align-items: center">
@@ -185,7 +185,7 @@
                                                     <div class="media mt-4">
                                                         <a class="pr-3" href="#"><img class="rounded-circle"
                                                                 alt="Bootstrap Media Another Preview"
-                                                                src="https://i.imgur.com/xELPaag.jpg" /></a>
+                                                                src="/images/facelogo.png"  style="background-color:black;" /></a>
                                                         <div class="media-body">
 
                                                             <div class="row" style="margin: 0px;">

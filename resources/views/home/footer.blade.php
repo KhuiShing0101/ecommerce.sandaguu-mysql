@@ -4,7 +4,7 @@
           <div class="col-md-4">
               <div class="full">
                  <div class="logo_footer">
-                   <a href="#"><img width="210" src="images/logo.png" alt="#" style="filter: brightness(0);"/></a>
+                   <a href="#"><div style="text-align: left;"><img src="/images/logo.png" filter:brightness(0.5);></div></a>
                  </div>
                  <div class="information_f">
                    <p><strong>ADDRESS:</strong> Yangon, Myanmar</p>

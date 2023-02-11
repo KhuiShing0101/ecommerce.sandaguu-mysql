@@ -1,7 +1,7 @@
 <x-guest-layout>
-    <x-jet-authentication-card class="loginLogo">
+    <x-jet-authentication-card>
         <x-slot name="logo">
-            <img src="/images/logo.png" alt="" style="filter:brightness(0.1); margin-left:auto; margin-right:auto;display:flex;"
+            <img src="/images/logo.png" alt="" style="filter:brightness(0.1); margin-left:auto; margin-right:auto;display:block;width:400px;"
 
             >
         </x-slot>

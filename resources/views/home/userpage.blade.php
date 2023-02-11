@@ -161,7 +161,7 @@
                                                         <h5
                                                             style="margin-right: 5px; text-transform: capitalize; font-weight: bold;">
                                                             {{ $comment->name }}</h5>
-                                                        <span>- 2 hours ago</span>
+                                                        <span>- 1 month ago</span>
                                                     </div>
 
 
@@ -196,7 +196,7 @@
                                                                     <h5
                                                                         style="margin-right: 5px; text-transform: capitalize; font-weight: bold;">
                                                                         {{ $rep->name }}</h5>
-                                                                    <span>- 3 hours ago</span>
+                                                                    <span>- 1month ago</span>
                                                                 </div>
 
 
@@ -267,6 +267,7 @@
     <div class="cpy_">
 
         <script>
+
             document.addEventListener("DOMContentLoaded", function(event) {
                 var scrollpos = localStorage.getItem('scrollpos');
                 if (scrollpos) window.scrollTo(0, scrollpos);
@@ -275,6 +276,7 @@
             window.onbeforeunload = function(e) {
                 localStorage.setItem('scrollpos', window.scrollY);
             };
+
         </script>
     </div>
     <!-- jQery -->

@@ -70,19 +70,19 @@
                             @if ($products->discount_price != null)
                                 <h6 style="color:red">
                                     Discount Price <br>
-                                    MMK{{ $products->discount_price }}
+                                    {{ $products->discount_price }} mmk
                                 </h6>
 
                                 <h6 style="text-decoration : line-through;color:blue">
                                     Price
                                     <br>
-                                    MMK{{ $products->price }}
+                                    {{ $products->price }} mmk
 
                                 </h6>
                             @else
                                 <h6 style="color:blue">
                                     Price <br>
-                                    MMK{{ $products->price }}
+                                    {{ $products->price }} mmk
                                 </h6>
                             @endif
 

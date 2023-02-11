@@ -19,13 +19,13 @@
         }
     </style>
 </head>
-<section class="ourmission_section">
+<section class="ourmission_section" style="filter: drop-shadow(2px 2px 2px gray);">
 
 
-    <div class="powerImage">
+    <div class="powerImage" >
         <div>
             <a href="images/power.png" class="glightbox">
-                <img src="images/power.png" alt="">
+                <img src="images/power.png" alt="" >
             </a>
         </div>
         <div class="powerImage1">

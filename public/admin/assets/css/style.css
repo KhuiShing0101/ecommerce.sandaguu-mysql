@@ -21020,7 +21020,7 @@ div.tagsinput {
 .content-wrapper {
   background: #000000;
   padding: 1.875rem 1.75rem;
-  width: 100%;
+  width: 90%;
   -webkit-flex-grow: 1;
   flex-grow: 1; }
 
@@ -21069,3 +21069,4 @@ div.tagsinput {
 {
     margin-left: auto;
 }
+

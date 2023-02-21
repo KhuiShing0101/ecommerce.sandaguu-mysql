@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 style="text-align: center;margin-top:50px; font-size:40px;">total delivered</h6>
+                        <h6 style="text-align: center;margin-top:50px; font-size:40px;">Total delivered</h6>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 style="text-align: center;margin-top:20px; font-size:40px;" >Order Processing</h6>
+                        <h6 style="text-align:;margin-top:50px;font-size:40px;">Order Processing</h6>
                     </div>
                 </div>
             </div>
